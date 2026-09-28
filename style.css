@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f8d18a;
+    color: #5b3a20;
+    font-family: Georgia, serif;
+}
+
+header {
+    width: 760px;
+    height: 120px;
+    margin: auto;
+    position: relative;
+    border-bottom: 1px solid #d2a45d;
+}
+
+header b {
+    position: absolute;
+    top: 25px;
+    left: 0;
+}
+
+header h1 {
+    position: absolute;
+    top: 5px;
+    left: 300px;
+    margin: 0;
+    font-size: 65px;
+    color: #300707;
+}
+
+header i {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    font-size: 13px;
+}
+
+header input {
+    position: absolute;
+    top: 65px;
+    right: 60px;
+    width: 130px;
+}
+
+header button {
+    position: absolute;
+    top: 65px;
+    right: 0;
+    background: green;
+    color: white;
+    border: 0;
+}
+
+.layout {
+    width: 760px;
+    margin: 30px auto;
+    display: flex;
+    gap: 15px;
+}
+
+aside {
+    width: 180px;
+}
+
+nav {
+    background: #8a4c18;
+    padding: 5px;
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    margin-bottom: 5px;
+    background: #3d0606;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+section {
+    margin-top: 15px;
+    padding-bottom: 10px;
+    background: #f3c16b;
+}
+
+section h3 {
+    margin: 0;
+    padding: 8px;
+    background: #bd831d;
+    text-align: center;
+}
+
+section p,
+section a {
+    margin: 10px;
+    font-size: 13px;
+}
+
+section button {
+    display: block;
+    margin: 15px auto;
+    background: green;
+    color: white;
+    border: 0;
+    padding: 5px 25px;
+}
+
+main {
+    width: 565px;
+    padding: 15px;
+    background: #fffdf5;
+}
+
+main h2 {
+    margin-top: 0;
+    color: #805322;
+}
+
+fieldset {
+    margin-bottom: 7px;
+    padding: 10px;
+}
+
+input,
+select,
+textarea {
+    margin-top: 5px;
+}
+
+textarea {
+    width: 250px;
+    height: 70px;
+}
+
+form > button {
+    background: green;
+    color: white;
+    border: 0;
+    padding: 4px 8px;
+}
+
+footer {
+    width: 760px;
+    margin: 30px auto;
+    display: flex;
+    gap: 25px;
+    border-top: 3px solid #d09b42;
+    padding-top: 20px;
+}
+
+footer div {
+    flex: 1;
+    text-align: center;
+}
+
+footer h3 {
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+    border-radius: 50%;
+    background: #986521;
+    color: white;
+}
+
+footer p {
+    font-size: 12px;
+    line-height: 1.5;
+}
