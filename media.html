@@ -1,104 +1,170 @@
 <!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
 <html lang="vi">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ngày hội Công nghệ Xanh 2026 - Blackletterpress</title>
-<link rel="stylesheet" href="css/style.css">
+	<meta charset="UTF-8">
+	<title>Ngày hội Công nghệ Xanh 2026 - Blakletterpress Website Template</title>
+	<!-- Liên kết đến file CSS chung của template -->
+	<link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
-<div class="wrapper">
-<header>
-    <div class="site-name">Blackletterpress</div>
-    <div class="logo">BLP</div>
-    <div class="tagline">Your online source of trusted news</div>
-    <div class="search">
-        <input type="search" placeholder="Enter search query">
-        <button type="button">Search</button>
-    </div>
-</header>
+	<div id="page">
+		<!-- ================= HEADER ================= -->
+		<header id="header">
+			<div id="motto">
+				<a href="index.html" class="sitename brand"><img src="images/blakletterpress.png" height="24" width="142" alt="SiteName"></a>
+				<p>
+					<img src="images/header-text.png" height="14" width="218" alt="Text">
+				</p>
+			</div>
+			<div id="logo">
+				<a href="index.html"><img src="images/logo.png" alt="LOGO"></a>
+			</div>
+			<div id="searchbar">
+				<form action="#" method="post">
+					<input type="text" value="Enter search query" class="txtfield" onBlur="javascript:if(this.value==''){this.value=this.defaultValue;}" onFocus="javascript:if(this.value==this.defaultValue){this.value='';}">
+					<input type="submit" value="Search" class="btn">
+				</form>
+			</div>
+		</header>
 
-<div class="layout">
-<aside class="sidebar">
-    <nav class="menu" aria-label="Điều hướng chính">
-        <a href="index.html">HOME</a>
-        <a href="#">ABOUT</a>
-        <a href="#">NEWS</a>
-        <a href="register.html">BLOG</a>
-    </nav>
-    <section class="box social">
-        <h3>Connect with us:</h3>
-        <div class="social-icons"><span>♥</span><span>f</span><span>✚</span></div>
-    </section>
-    <section class="box placeholder">
-        <h3>Placeholder</h3>
-        <p><strong>Title Sample One</strong></p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend ligula vel velit varius.</p>
-        <p><a href="#">Read more</a></p>
-        <p><strong>Title Sample One</strong></p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend ligula vel velit varius.</p>
-        <a class="view-more" href="#">View More</a>
-    </section>
-</aside>
+		<!-- ================= NỘI DUNG CHÍNH ================= -->
+		<div id="contents">
+			
+			<!-- ================= SIDEBAR ================= -->
+			<aside id="sidebar">
+				<!-- Thanh điều hướng -->
+				<nav id="navigation">
+					<div>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="news.html">News</a></li>
+							<li><a href="blog.html">Blog</a></li>
+						</ul>
+					</div>
+				</nav>
+				
+				<!-- Kết nối mạng xã hội -->
+				<div class="section">
+					<div id="connect">
+						<h2>Connect with us:</h2>
+						<a href="http://freewebsitetemplates.com/go/twitter/" target="_blank" class="twitter"></a> 
+						<a href="http://freewebsitetemplates.com/go/facebook/" target="_blank" class="facebook"></a> 
+						<a href="http://freewebsitetemplates.com/go/googleplus/" target="_blank" class="googleplus"></a>
+					</div>
+				</div>
+				
+				<!-- Bài viết gợi ý (Placeholder) -->
+				<div class="section">
+					<div id="posts">
+						<h2>Placeholder</h2>
+						<ul>
+							<li>
+								<h5>Title Sample One</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend ligula vel velit varius</p>
+								<a href="news.html" class="more">Read more</a>
+							</li>
+							<li>
+								<h5>Title Sample One</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend ligula vel velit varius</p>
+								<a href="news.html" class="more">Read more</a>
+							</li>
+						</ul>
+						<a href="blog.html" class="btn2">View More</a>
+					</div>
+				</div>
+			</aside>
 
-<main class="content">
-<article>
-    <header style="height:auto;border:0">
-        <h1>Ngày hội Công nghệ Xanh 2026</h1>
-        <p>22/04/2026 · Tác giả: Ban tổ chức Blackletterpress</p>
-    </header>
+			<!-- ================= MAIN CONTENT ================= -->
+			<main id="main">
+				<!-- Bài viết chi tiết sự kiện -->
+				<article class="body">
+					<!-- Tiêu đề bài viết -->
+					<h1>Ngày hội Công nghệ Xanh 2026</h1>
+					<!-- Thông tin tác giả và ngày đăng -->
+					<p class="meta">22/04/2026 - Tác giả: Ban tổ chức Blakletterpress</p>
 
-    <section>
-        <figure>
-            <img class="media-img" src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1000&q=80" alt="Hội trường trong một sự kiện công nghệ">
-            <figcaption>Hội trường chính trong ngày khai mạc sự kiện năm 2026.</figcaption>
-        </figure>
+					<!-- Hình ảnh minh họa chính -->
+					<figure>
+						<img src="images/event-hall.jpg" alt="Hội trường chính trong ngày khai mạc sự kiện năm 2025" style="width: 100%; max-width: 600px;">
+						<figcaption>Hội trường chính trong ngày khai mạc sự kiện năm 2025.</figcaption>
+					</figure>
 
-        <h2>Giới thiệu sự kiện</h2>
-        <p>Ngày hội Công nghệ Xanh 2026 quy tụ các diễn giả và doanh nghiệp cùng chia sẻ giải pháp công nghệ bền vững. Sự kiện gồm các buổi tọa đàm, khu trưng bày sản phẩm và các hoạt động dành cho sinh viên.</p>
+					<!-- Phần 1: Giới thiệu sự kiện -->
+					<section>
+						<h2>Giới thiệu sự kiện</h2>
+						<p>Ngày hội Công nghệ Xanh 2026 quy tụ các diễn giả và doanh nghiệp theo đuổi giải pháp công nghệ bền vững. Sự kiện gồm nhiều chủ đề đa dạng, khu trưng bày sản phẩm và các buổi kết nối dành cho sinh viên.</p>
+					</section>
 
-        <h2>Video giới thiệu</h2>
-        <div class="video-box">
-            <video controls poster="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1000&q=80">
-                <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4">
-                Trình duyệt của bạn không hỗ trợ video.
-            </video>
-        </div>
+					<!-- Phần 2: Video giới thiệu -->
+					<section>
+						<h2>Video giới thiệu</h2>
+						<!-- Sử dụng thẻ video HTML5 với poster là ảnh đại diện -->
+						<video controls poster="images/video-thumbnail.jpg" style="width: 100%; max-width: 600px; display: block; margin-bottom: 10px;">
+							<source src="media/intro-video.mp4" type="video/mp4">
+							Trình duyệt của bạn không hỗ trợ thẻ video HTML5.
+						</video>
+						<p><strong>Podcast: Trò chuyện cùng diễn giả</strong></p>
+						<p>Nghe lại buổi phỏng vấn khách mời chính của chương trình:</p>
+						
+						<!-- Trình phát audio HTML5 -->
+						<audio controls style="width: 100%; max-width: 400px;">
+							<source src="media/podcast.mp3" type="audio/mpeg">
+							Trình duyệt của bạn không hỗ trợ thẻ audio HTML5.
+						</audio>
+					</section>
 
-        <h2>Podcast: Trò chuyện cùng diễn giả</h2>
-        <p>Nghe lại buổi phỏng vấn với khách mời chính của chương trình:</p>
-        <audio controls>
-            <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3" type="audio/mpeg">
-            Trình duyệt của bạn không hỗ trợ audio.
-        </audio>
+					<!-- Phần 3: Địa điểm tổ chức -->
+					<section>
+						<h2>Địa điểm tổ chức</h2>
+						<p>Sự kiện diễn ra tại Hà Nội. Xem bản đồ đường đi bên dưới:</p>
+						<!-- Nhúng Google Maps bằng iframe -->
+						<iframe 
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.096684472822!2d105.8341593154028!3d21.028511993155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab9bd3f4e2a7%3A0x8c0e6b8b8b8b8b8b!2zSMOgIE7hu5lp!5e0!3m2!1svi!2s!4v1620000000000!5m2!1svi!2s" 
+							width="100%" max-width="600px" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+						</iframe>
+					</section>
 
-        <h2>Địa điểm tổ chức</h2>
-        <p>Sự kiện diễn ra tại Hà Nội. Xem bản đồ địa điểm bên dưới:</p>
-        <iframe class="map"
-            src="https://www.openstreetmap.org/export/embed.html?bbox=105.78%2C20.98%2C105.88%2C21.08&layer=mapnik&marker=21.0285%2C105.8542"
-            title="Bản đồ địa điểm tổ chức">
-        </iframe>
+					<!-- Phần 4: Hình ảnh các mùa trước -->
+					<section>
+						<h2>Hình ảnh các mùa trước</h2>
+						<figure>
+							<img src="images/past-events.jpg" alt="Khu trưng bày sản phẩm xanh mùa 2025" style="width: 100%; max-width: 600px;">
+							<figcaption>Khu trưng bày sản phẩm xanh mùa 2025.</figcaption>
+						</figure>
+						<p>Chủ đề: công nghệ xanh, phát triển bền vững.</p>
+					</section>
+				</article>
+			</main>
+		</div>
 
-        <h2>Hình ảnh các mùa trước</h2>
-        <figure>
-            <img class="media-img" src="https://images.unsplash.com/photo-1531058020387-3be344556be6?auto=format&fit=crop&w=1000&q=80" alt="Không gian triển lãm công nghệ xanh">
-            <figcaption>Khu trưng bày sản phẩm xanh mùa 2025.</figcaption>
-        </figure>
-        <p>Chủ đề: <a href="#">sống xanh và phát triển bền vững</a>.</p>
-    </section>
-</article>
-</main>
-</div>
-
-<footer>
-<div class="footer-cols">
-    <div class="footer-item"><div class="footer-icon">⌂</div><p>This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text.</p></div>
-    <div class="footer-item"><div class="footer-icon">♟</div><p>This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text.</p></div>
-    <div class="footer-item"><div class="footer-icon">◎</div><p>This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text.</p></div>
-    <div class="footer-item"><div class="footer-icon">✎</div><p>This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text.</p></div>
-</div>
-<div class="copyright">© Copyright © 2011.Company name all rights reserved</div>
-</footer>
-</div>
+		<!-- ================= FOOTER ================= -->
+		<footer id="footer">
+			<div>
+				<ul id="featured">
+					<li>
+						<a href="index.html" class="home"></a>
+						<p>This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+					</li>
+					<li>
+						<a href="index.html" class="bell"></a>
+						<p>This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+					</li>
+					<li>
+						<a href="index.html" class="globe"></a>
+						<p>This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+					</li>
+					<li>
+						<a href="index.html" class="pencil"></a>
+						<p>This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+					</li>
+				</ul>
+				<p id="footnote">
+					© Copyright 2011. Company name all rights reserved
+				</p>
+			</div>
+		</footer>
+	</div>
 </body>
 </html>
