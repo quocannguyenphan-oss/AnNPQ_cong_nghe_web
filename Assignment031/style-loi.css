@@ -33,6 +33,9 @@ a {
 .site-header {
 	background: #2b2b2b;
 	position: sticky;
+	/*? Sửa: thêm top và z-index */
+	top: 0;
+	z-index: 10;
 }
 
 .header-inner {
@@ -70,11 +73,13 @@ a {
 .hero {
 	height: 360px;
 	overflow: hidden;
+	position: relative;
 }
 
 .hero-bg {
 	width: 100%;
 	height: 100%;
+	object-fit: cover;
 }
 
 .hero-overlay {
@@ -129,12 +134,14 @@ a {
 
 .card {
 	flex: 0 0 calc((100% - 48px) / 3);
-	height: 300px;
+	min-height: 300px;
 	background: #fff;
 	border: 1px solid #e0d8c8;
 	border-radius: 8px;
 	padding: 16px;
 	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+	position: relative;
+	box-sizing: border-box;
 }
 
 .badge {
@@ -151,6 +158,8 @@ a {
 
 .card img {
 	display: block;
+	width: 100%;
+	height: 160px;
 }
 
 .card-body h3 {
@@ -173,7 +182,7 @@ a {
 /* ===== Nút lên đầu trang ===== */
 .back-to-top {
 	position: fixed;
-	top: 24px;
+	bottom: 24px;
 	right: 24px;
 	width: 48px;
 	height: 48px;
